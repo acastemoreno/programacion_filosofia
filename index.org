@@ -25,73 +25,58 @@
 
 * 
   :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+#+BEGIN_QUOTE
+Todos en este pais deberian aprender a programar un ordenador porque te enseña a pensar.
+
+      -- Steve Jobs
+#+END_QUOTE
+
+#+ATTR_HTML: :class note
+#+BEGIN_QUOTE
+Video [fn:1]
+#+END_QUOTE
+
+* ¿De que trata la programacion?
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Humanidad ❤️
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Ayudar a las personas
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Habilidad tecnica y creativa
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* 
+  :PROPERTIES:
   :FILL:     images/rainbown.gif
   :TITLE:    white
   :SLIDE:    white contain-image
   :END:
 
-* Problema
-  :PROPERTIES:
-  :SLIDE:    segue dark quote
-  :ASIDE:    right bottom
-  :ARTICLE:  flexbox vleft auto-fadein
-  :END:
-
-* 
-  :PROPERTIES:
-  :FILL:     images/js_insane.png
-  :TITLE:    white
-  :SLIDE:    white contain-image
-  :END:
-
-#+ATTR_HTML: :class note
-#+BEGIN_QUOTE
-solo para nota[fn:1]
-#+END_QUOTE
-
-* 
-  :PROPERTIES:
-  :FILL:     images/ajax.png
-  :TITLE:    white
-  :SLIDE:    white contain-image
-  :END:
-
-* 
-  :PROPERTIES:
-  :FILL:     images/channels.png
-  :TITLE:    white
-  :SLIDE:    white contain-image
-  :END:
-
-* LiveView Aproach
-  :PROPERTIES:
-  :SLIDE:    segue dark quote
-  :ASIDE:    right bottom
-  :ARTICLE:  flexbox vleft auto-fadein
-  :END:
-
-* 
-  :PROPERTIES:
-  :FILL:     images/liveview.png
-  :TITLE:    white
-  :SLIDE:    white contain-image
-  :END:
-  
-* 
-  :PROPERTIES:
-  :FILL:     images/liveview2.png
-  :TITLE:    white
-  :SLIDE:    white contain-image
-  :END:
-  
-* Demo
-  :PROPERTIES:
-  :SLIDE:    segue dark quote
-  :ASIDE:    right bottom
-  :ARTICLE:  flexbox vleft auto-fadein
-  :END:
-
-* Thank You ʕ•ᴥ•ʔ
+* Gracias! ʕ•ᴥ•ʔ
 :PROPERTIES:
 :SLIDE: thank-you-slide segue
 :ASIDE: right
@@ -99,4 +84,4 @@ solo para nota[fn:1]
 :END:
 
 * Footnotes
-[fn:1] [[https://www.youtube.com/watch?v=Z2DU0qLfPIY&feature=youtu.be&t=1080][ElixirConf 2018 - Keynote - Chris McCord]]
+[fn:1] [[https://www.youtube.com/watch?v=hXAPOxykG9o][Video]]
