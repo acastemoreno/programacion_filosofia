@@ -124,9 +124,24 @@ Map
 Coleccion de datos que en conjunto hacen referencia a algo
 
 #+BEGIN_SRC elixir
-%{nombre: "Albert", apellidos: "Castellano Moreno", edad: 32, apodo: "Amiguito", fecha_nacimiento: ~D[1991-12-16]}
+%{
+  nombre: "Albert",
+  apellidos: "Castellano Moreno",
+  edad: 32,
+  apodo: "Amiguito",
+  fecha_nacimiento: ~D[1991-12-16],
+  hora_nacimineto: ~T[02:00:00.000]
+}
+#+END_SRC
 
-%{nombre: "Nueva Acropolis Huaraz", numero_miembros: 50, tasa_asistencia: 0.56, direccion: "Av. Agustín Gamarra 960-B"}
+* Mapas
+#+BEGIN_SRC elixir
+%{
+  nombre: "Nueva Acropolis Huaraz",
+  numero_miembros: 50,
+  tasa_asistencia: 0.56,
+  direccion: "Av. Agustín Gamarra 960-B"
+}
 #+END_SRC
 
 * Variable
