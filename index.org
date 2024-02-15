@@ -23,14 +23,14 @@
 #+LANGUAGE: es
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="theme/css/custom.css" />
 
-* [[./introduccion.html][Introduccion]]
+* [[./introduccion][Introduccion]]
   :PROPERTIES:
   :SLIDE:    segue dark quote
   :ASIDE:    right bottom
   :ARTICLE:  flexbox vleft auto-fadein
   :END:
 
-* [[./1era_clase.html][1era clase]]
+* [[./1era_clase][1era clase]]
   :PROPERTIES:
   :SLIDE:    segue dark quote
   :ASIDE:    right bottom
