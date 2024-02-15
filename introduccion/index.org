@@ -1,7 +1,7 @@
 * Slide Options                           :noexport:
 # ======= Appear in cover-slide ====================
 #+TITLE: Programación con Filosofía
-#+SUBTITLE: Lista de clases
+#+SUBTITLE: Introducción
 #+COMPANY: Nueva Acropolis Huaraz
 #+AUTHOR: Albert Castellano Moreno
 #+EMAIL: acastemoreno@gmail.com
@@ -23,19 +23,195 @@
 #+LANGUAGE: es
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="theme/css/custom.css" />
 
-* [[./introduccion.html][Introduccion]]
+* 
+  :PROPERTIES:
+  :FILL:     images/rainbown.gif
+  :TITLE:    white
+  :SLIDE:    white contain-image
+  :END:
+
+* 
   :PROPERTIES:
   :SLIDE:    segue dark quote
   :ASIDE:    right bottom
   :ARTICLE:  flexbox vleft auto-fadein
   :END:
 
-* [[./1era_clase.html][1era clase]]
+#+BEGIN_QUOTE
+Todos en este pais deberian aprender a programar un ordenador porque te enseña a pensar.
+
+      -- Steve Jobs
+#+END_QUOTE
+
+#+ATTR_HTML: :class note
+#+BEGIN_QUOTE
+Video [fn:1]
+Video [fn:2]
+#+END_QUOTE
+
+* ¿De que trata la programacion?
   :PROPERTIES:
   :SLIDE:    segue dark quote
   :ASIDE:    right bottom
   :ARTICLE:  flexbox vleft auto-fadein
   :END:
+
+* Humanidad ❤️
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Ayudar a las personas
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Habilidad técnica y creativa
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Video del 2013!  ¿Actualidad?
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+#+ATTR_HTML: :class note
+#+BEGIN_QUOTE
+Video [fn:3]
+#+END_QUOTE
+
+* Objetivo del taller
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Aprender programación desde la base
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Programación desde un nivel humano
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+#+ATTR_HTML: :class note
+#+BEGIN_QUOTE
+Pie [fn:4]
+Pie [fn:5]
+Pie [fn:6]
+Pie [fn:7]
+#+END_QUOTE
+
+* Lenguaje de programación
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* 
+  :PROPERTIES:
+  :FILL:     images/lenguajes-de-programacion.jpg
+  :TITLE:    white
+  :SLIDE:    white contain-image
+  :END:
+
+* ¿Por qué Elixir?
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+#+ATTR_HTML: :class note
+#+BEGIN_QUOTE
+Video [fn:9]
+#+END_QUOTE
+
+* 
+  :PROPERTIES:
+  :FILL:     images/elixir_with_love.png
+  :TITLE:    white
+  :SLIDE:    white contain-image
+  :END:
+
+* 
+  :PROPERTIES:
+  :FILL:     images/elixir-girls.jpg
+  :TITLE:    white
+  :SLIDE:    white contain-image
+  :END:
+
+* 
+  :PROPERTIES:
+  :FILL:     images/elixir_child.jpeg
+  :TITLE:    white
+  :SLIDE:    white contain-image
+  :END:
+
+* Sobre el taller
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Tecnologias
+- Elixir
+- Visual Studio code
+- Livebook
+
+* Reglas
+- Ninguna pregunta es mala o tonta
+- Quedarse callados teniendo dudas esta mal
+
+* Expectativas
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Al llevar el taller
+- Compresión basica sobre como es programar.
+- Conocimiento de estrategicas de resolucion de problemas
+- Ser capaz de comunicar ideas
+- Gestion de errores y situacion inesperadas
+- Crear un programa que les sirva en una tarea sencilla que quieran hacer mas rapido.
+
+* Al continuar el taller
+- Crear herramientas para la escuela
+  - Asistencia
+  - Envio de recordatorio para llegar a tiempo
+  - Envio de frases
+  - Recordario de cumpleaños
+
+* Demo
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+#+ATTR_HTML: :class note
+#+BEGIN_QUOTE
+APP [fn:8]
+token: 364hsld7t7e6zymgu7zuolnyrgw3shlr
+#+END_QUOTE
 
 * Gracias! ʕ•ᴥ•ʔ
 :PROPERTIES:
@@ -44,3 +220,13 @@
 :ARTICLE: flexbox vleft auto-fadein
 :END:
 
+* Footnotes
+[fn:1] [[https://www.youtube.com/watch?v=hXAPOxykG9o][Video Doblado]]
+[fn:2] [[https://www.youtube.com/watch?v=sDk1pTDPROI][Video Subtitulado]]
+[fn:3] [[https://youtu.be/l6mTvXZQylg?si=wB73xkF2IYvJ-AZ9&t=643][¿Cómo elegir qué carrera estudiar? - 10:43 min]]
+[fn:4] Con el objetivo de resolver problemas humanos
+[fn:5] Expresion de ideas y creatividad (No hay una unica solucion)
+[fn:6] Ayuda a ordenar nuestras ideas
+[fn:7] Conceptos e ideas dentro de programación que recuerda a filosofia y la psicologia
+[fn:8] [[https://acastemoreno-programacion-filosofia.hf.space/apps][Magic]]
+[fn:9] [[https://www.youtube.com/watch?v=idUgQ87-7kA&][Elixir ❤️]]
