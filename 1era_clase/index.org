@@ -23,6 +23,13 @@
 #+LANGUAGE: es
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="theme/css/custom.css" />
 
+* Lugar donde practicar
+[[https://acastemoreno-programacion-filosofia.hf.space/apps][Livebook]]
+
+Luego click en dashboard en la esquina superior derecha
+
+Contraseña: =programacion_filosofia=
+
 * Datos
   :PROPERTIES:
   :SLIDE:    segue dark quote
@@ -37,12 +44,49 @@
   :ARTICLE:  flexbox vleft auto-fadein
   :END:
 
+* Enteros
+Integer
+
+#+BEGIN_SRC elixir
+1
+100
+-100
+1_000_00
+#+END_SRC
+
+* Flotantes
+Float
+
+#+BEGIN_SRC elixir
+1.0
+0.2456
+0.314159e1
+314159.0e-5
+#+END_SRC
+
 * Texto
   :PROPERTIES:
   :SLIDE:    segue celeste quote
   :ASIDE:    right bottom
   :ARTICLE:  flexbox vleft auto-fadein
   :END:
+
+* Texto
+String
+
+#+BEGIN_SRC elixir
+"Alber Castellano Moreno"
+
+"amiguito es mi pastor y nada me faltara 😂"
+
+"Holi Woli"
+
+"""
+Esto es un string multilinea.
+No tengo limite en la longitud de cada linea.
+Texto en multiples lineas, se caracteriza por el uso del tripe comilla para abrir y cerrar el texto
+"""
+#+END_SRC
 
 * Atomo
   :PROPERTIES:
@@ -51,12 +95,21 @@
   :ARTICLE:  flexbox vleft auto-fadein
   :END:
 
-* Listas
-  :PROPERTIES:
-  :SLIDE:    segue celeste quote
-  :ASIDE:    right bottom
-  :ARTICLE:  flexbox vleft auto-fadein
-  :END:
+* Atomo
+Atom
+
+Algo que su solo nombre ya representa algo. Empieza con =:=
+
+#+BEGIN_SRC elixir
+:esto_es_un_atomo
+:"Un atomo con espacios"
+:ok
+:error
+:fallo
+:completado
+:nombre
+:apellido
+#+END_SRC
 
 * Variable
   :PROPERTIES:
@@ -64,6 +117,43 @@
   :ASIDE:    right bottom
   :ARTICLE:  flexbox vleft auto-fadein
   :END:
+
+* Mapas
+Map
+
+Coleccion de datos que en conjunto hacen referencia a algo
+
+#+BEGIN_SRC elixir
+%{nombre: "Albert", apellidos: "Castellano Moreno", edad: 32, apodo: "Amiguito", fecha_nacimiento: ~D[1991-12-16]}
+
+%{nombre: "Nueva Acropolis Huaraz", numero_miembros: 50, tasa_asistencia: 0.56, direccion: "Av. Agustín Gamarra 960-B"}
+#+END_SRC
+
+* Variable
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Variable
+Un lugar donde guardar cosas
+
+#+BEGIN_SRC elixir
+iex> nombre = "Albert"
+iex> nombre
+"Albert"
+iex> nombre = "Roman"
+iex> nombre
+"Roman"
+#+END_SRC
+
+* Uso de Variable
+#+BEGIN_SRC elixir
+iex> IO.puts("Hola, mi nombre es #{nombre}")
+iex> IO.puts("Tengo #{años} años")
+iex> IO.puts("Mido #{altura} metros")
+#+END_SRC
 
 * Gracias! ʕ•ᴥ•ʔ
 :PROPERTIES:
