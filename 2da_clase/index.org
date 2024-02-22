@@ -79,6 +79,44 @@ holi = <b>fn</b> a, b <b>-></b> a + b <b>end</b>
 7.672027111526653
 #+END_SRC
 
+* Funciones anonimas
+#+BEGIN_SRC elixir
+<b>saludo = fn</b> nombre <b>-></b> 
+  "Hola #{nombre}, mucho gusto en conocerte, puedes llamarme amiguito" 
+<b>end</b>
+<b>saludo.(</b>"albert"<b>)</b>
+
+"Hola albert, mucho gusto en conocerte, puedes llamarme amiguito"
+#+END_SRC
+
+* Shortcut &
+#+BEGIN_SRC elixir
+sum_dos = &(<b>&1</b>+2)
+<b>sum_dos.</b>(3)
+
+5
+#+END_SRC
+
+* Funciones con nombre
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Funciones con nombre
+#+BEGIN_SRC elixir
+<b>defmodule Caida do</b>
+  <b>def velocidad</b>(altura) <b>do</b>
+    :math.sqrt(2 * 9.81 * altura)
+  <b>end</b>
+end
+
+<b>Caida.velocidad(</b>3)
+
+7.672027111526653
+#+END_SRC
+
 * Gracias! ʕ•ᴥ•ʔ
 :PROPERTIES:
 :SLIDE: thank-you-slide segue
