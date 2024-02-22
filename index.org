@@ -37,6 +37,13 @@
   :ARTICLE:  flexbox vleft auto-fadein
   :END:
 
+* [[./2da_clase/index.html][2da clase]]
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
 * Gracias! ʕ•ᴥ•ʔ
 :PROPERTIES:
 :SLIDE: thank-you-slide segue
