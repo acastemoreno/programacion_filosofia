@@ -104,7 +104,7 @@ sum_dos = &(<b>&1</b>+2)
   :ARTICLE:  flexbox vleft auto-fadein
   :END:
 
-** Funciones con nombre
+* Funciones con nombre
 #+BEGIN_SRC elixir
 <b>defmodule Caida do</b>
   <b>def velocidad</b>(altura) <b>do</b>
