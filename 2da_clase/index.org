@@ -30,91 +30,144 @@ Luego click en dashboard en la esquina superior derecha
 
 Contraseña: =programacion_filosofia=
 
-* Funciones
+* Datos
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Numeros
   :PROPERTIES:
   :SLIDE:    segue celeste quote
   :ASIDE:    right bottom
   :ARTICLE:  flexbox vleft auto-fadein
   :END:
 
-* Funciones
-#+BEGIN_CENTER
-#+ATTR_HTML: :height 300px
-[[file:images/funciones.png]]
-#+END_CENTER
+* Enteros
+Integer
 
-* Funciones anonimas
+#+BEGIN_SRC elixir
+1
+100
+-100
+1_000_00
+#+END_SRC
+
+* Flotantes
+Float
+
+#+BEGIN_SRC elixir
+1.0
+0.2456
+0.314159e1
+314159.0e-5
+#+END_SRC
+
+* Texto
   :PROPERTIES:
   :SLIDE:    segue celeste quote
   :ASIDE:    right bottom
   :ARTICLE:  flexbox vleft auto-fadein
   :END:
 
-* 
-#+BEGIN_CENTER
-#+ATTR_HTML: :height 400px
-[[file:images/anonimo.jpeg]]
-#+END_CENTER
+* Texto
+String
 
-* Funciones anonimas
 #+BEGIN_SRC elixir
-<b>fn</b>(<parametro1>, <parametro2>, ....) <b>-></b>
-  <ejecucion y retorno>
-<b>end</b>
+"Alber Castellano Moreno"
+
+"amiguito es mi pastor y nada me faltara 😂"
+
+"Holi Woli"
+
+"""
+Esto es un string multilinea.
+No tengo limite en la longitud de cada linea.
+Texto en multiples lineas, se caracteriza por el uso del tripe comilla para abrir y cerrar el texto
+"""
 #+END_SRC
 
-* Funciones anonimas
-#+BEGIN_SRC elixir
-holi = <b>fn</b> a, b <b>-></b> a + b <b>end</b>
-<b>holi.(</b>1,2<b>)</b>
-
-3
-#+END_SRC
-
-* Funciones anonimas
-#+BEGIN_SRC elixir
-<b>velocidad = fn</b> altura <b>-></b> :math.sqrt(2 * 9.81 * altura) <b>end</b>
-<b>velocidad.(</b>3<b>)</b>
-
-7.672027111526653
-#+END_SRC
-
-* Funciones anonimas
-#+BEGIN_SRC elixir
-<b>saludo = fn</b> nombre <b>-></b> 
-  "Hola #{nombre}, mucho gusto en conocerte, puedes llamarme amiguito" 
-<b>end</b>
-<b>saludo.(</b>"albert"<b>)</b>
-
-"Hola albert, mucho gusto en conocerte, puedes llamarme amiguito"
-#+END_SRC
-
-* Shortcut &
-#+BEGIN_SRC elixir
-sum_dos = &(<b>&1</b>+2)
-<b>sum_dos.</b>(3)
-
-5
-#+END_SRC
-
-* Funciones con nombre
+* Atomo
   :PROPERTIES:
   :SLIDE:    segue celeste quote
   :ASIDE:    right bottom
   :ARTICLE:  flexbox vleft auto-fadein
   :END:
 
-** Funciones con nombre
+* Atomo
+Atom
+
+Algo que su solo nombre ya representa algo. Empieza con =:=
+
 #+BEGIN_SRC elixir
-<b>defmodule Caida do</b>
-  <b>def velocidad</b>(altura) <b>do</b>
-    :math.sqrt(2 * 9.81 * altura)
-  <b>end</b>
-end
+:esto_es_un_atomo
+:"Un atomo con espacios"
+:ok
+:error
+:fallo
+:completado
+:nombre
+:apellido
+#+END_SRC
 
-<b>Caida.velocidad(<b/>3)
+* Variable
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
 
-7.672027111526653
+* Mapas
+Map
+
+Coleccion de datos que en conjunto hacen referencia a algo
+
+#+BEGIN_SRC elixir
+%{
+  nombre: "Albert",
+  apellidos: "Castellano Moreno",
+  edad: 32,
+  apodo: "Amiguito",
+  fecha_nacimiento: ~D[1991-12-16],
+  hora_nacimineto: ~T[02:00:00.000]
+}
+#+END_SRC
+
+* Mapas
+#+BEGIN_SRC elixir
+%{
+  nombre: "Nueva Acropolis Huaraz",
+  numero_miembros: 50,
+  tasa_asistencia: 0.56,
+  direccion: "Av. Agustín Gamarra 960-B"
+}
+#+END_SRC
+
+* Variable
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Variable
+Un lugar donde guardar cosas
+
+#+BEGIN_SRC elixir
+iex> nombre = "Albert"
+iex> nombre
+"Albert"
+iex> nombre = "Roman"
+iex> nombre
+"Roman"
+#+END_SRC
+
+* Uso de Variable
+#+BEGIN_SRC elixir
+iex> IO.puts("Hola, mi nombre es #{nombre}")
+iex> IO.puts("Tengo #{años} años")
+iex> IO.puts("Mido #{altura} metros")
 #+END_SRC
 
 * Gracias! ʕ•ᴥ•ʔ
