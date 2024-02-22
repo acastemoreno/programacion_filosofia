@@ -1,0 +1,52 @@
+* Slide Options                           :noexport:
+# ======= Appear in cover-slide ====================
+#+TITLE: Programación con Filosofía
+#+SUBTITLE: 2da clase
+#+COMPANY: Nueva Acropolis Huaraz
+#+AUTHOR: Albert Castellano Moreno
+#+EMAIL: acastemoreno@gmail.com
+
+# ======= Appear in thank-you-slide ================
+#+GITHUB: http://github.com/acastemoreno
+
+# ======= Appear under each slide ==================
+#+FAVICON: images/na.png
+#+ICON: images/na.png
+#+HASHTAG: #NuevaAcropolis #programacion #filosofia
+
+# ======= Google Analytics =========================
+#+ANALYTICS: ----
+
+# ======= Org settings =========================
+#+EXCLUDE_TAGS: noexport
+#+OPTIONS: toc:nil num:nil ^:nil
+#+LANGUAGE: es
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="theme/css/custom.css" />
+
+* Lugar donde practicar
+[[https://acastemoreno-programacion-filosofia.hf.space/apps][Livebook]]
+
+Luego click en dashboard en la esquina superior derecha
+
+Contraseña: =programacion_filosofia=
+
+* Funciones
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Funciones
+#+BEGIN_CENTER
+#+ATTR_HTML: :height 300px
+[[file:images/funciones.png]]
+#+END_CENTER
+
+
+* Gracias! ʕ•ᴥ•ʔ
+:PROPERTIES:
+:SLIDE: thank-you-slide segue
+:ASIDE: right
+:ARTICLE: flexbox vleft auto-fadein
+:END:
