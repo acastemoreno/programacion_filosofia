@@ -2,7 +2,7 @@
 <html>
 <head>
 <title></title>
-<!-- 2024-02-28 Wed 23:36 -->
+<!-- 2024-02-29 Thu 00:39 -->
 <meta  charset="utf-8" />
 <meta  htto-equiv="X-UA-Compatible" content="chrome=1" />
 <meta  name="generator" content="Org-mode with org-ioslide" />
@@ -36,7 +36,518 @@
          <p data-config-presenter><!-- populated from slide_config.json --></p>
        </hgroup>
     </slide>
-  <slide id="sec-" class=" thank-you-slide segue nobackground" style="background-image: url(nil)">
+  <slide id="sec-" class="fill cover-image nobackground" style="background-image: url(images/pinocho.gif)">
+<hgroup class="">
+       <h2 class="white "><div id="outline-container-org61564f3" class="outline-2">
+<h2 id="org61564f3"></h2>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="" id="text-">
+
+
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-" class="fill cover-image nobackground" style="background-image: url(images/lies.gif)">
+<hgroup class="">
+       <h2 class="white "><div id="outline-container-org09a75f0" class="outline-2">
+<h2 id="org09a75f0"></h2>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="" id="text-">
+
+
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-" class=" segue celeste quote nobackground" style="background-image: url(nil)">
+<aside class="gdbar right bottom"><img src="images/na.png"></aside><hgroup class="">
+       <h2 class=" "><div id="outline-container-org8f0c381" class="outline-2">
+<h2 id="org8f0c381"></h2>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="flexbox vleft auto-fadein" id="text-">
+<q>
+
+Asignacion de <b>variable</b> no es lo unico que hace el <code>=</code>
+
+</q>
+
+
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-" class="fill contain-image nobackground" style="background-image: url(images/box.png)">
+<hgroup class="">
+       <h2 class="white "><div id="outline-container-org601d1ac" class="outline-2">
+<h2 id="org601d1ac"></h2>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="" id="text-">
+
+
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-" class=" segue celeste quote nobackground" style="background-image: url(nil)">
+<aside class="gdbar right bottom"><img src="images/na.png"></aside><hgroup class="">
+       <h2 class=" "><div id="outline-container-org81cb357" class="outline-2">
+<h2 id="org81cb357">Redescubriendo el <code>=</code></h2>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="flexbox vleft auto-fadein" id="text-">
+
+
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-" class=" segue celeste quote nobackground" style="background-image: url(nil)">
+<aside class="gdbar right bottom"><img src="images/na.png"></aside><hgroup class="">
+       <h2 class=" "><div id="outline-container-org8c69376" class="outline-2">
+<h2 id="org8c69376">Pattern matching</h2>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="flexbox vleft auto-fadein" id="text-">
+
+
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-" class="fill cover-image nobackground" style="background-image: url(images/flujo.png)">
+<hgroup class="">
+       <h2 class="white "><div id="outline-container-org08829a2" class="outline-2">
+<h2 id="org08829a2"></h2>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="" id="text-">
+
+
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-" class="fill contain-image nobackground" style="background-image: url(images/babe_pattern.gif)">
+<hgroup class="">
+       <h2 class="white "><div id="outline-container-org3a23500" class="outline-2">
+<h2 id="org3a23500"></h2>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="" id="text-">
+
+
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-" class=" segue dark quote nobackground" style="background-image: url(nil)">
+<aside class="gdbar right bottom"><img src="images/na.png"></aside><hgroup class="">
+       <h2 class=" "><div id="outline-container-org4256485" class="outline-2">
+<h2 id="org4256485"></h2>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="flexbox vleft auto-fadein" id="text-">
+<q>
+
+Busqueda de un <b>patron</b> en <b>informacion</b>
+
+</q>
+
+
+</article>
+
+</slide>
+<slide id="sec-"  >
+<hgroup class="">
+       <h2 class=" "><div id="outline-container-org0b1f44d" class="outline-3">
+<h3 id="org0b1f44d">Pattern Matching</h3>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="" id="text-">
+<div class="org-src-container">
+
+<pre class="prettyprint" data-lang="elixir">
+patron = data</pre>
+
+</div>
+
+<p>
+2 partes:
+</p>
+<ul>
+<li><b>Data</b>: Expresion evaluada contra la cual se hara una comparación.</li>
+<li><b>Patron</b>: Forma de data.
+<ul>
+<li>Contiene variables.</li>
+</ul></li>
+</ul>
+
+
+<aside class="note">
+  <section>
+<p>
+Nota<sup>1</sup>
+Nota<sup>2</sup>
+</p>
+
+  </section>
+</aside>
+
+<footer class="source">
+<p class="footpara">1. 
+<a href="https://www.poeticoding.com/the-beauty-of-pattern-matching-in-elixir/">The beauty of Pattern Matching in elixir</a>
+</p>
+<p class="footpara">2. 
+<a href="https://blog.carbonfive.com/2017/10/19/pattern-matching-in-elixir-five-things-to-remember/">Pattern Matching in Elixir: Five Things To Remember</a></p>
+</footer>
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-"  >
+<hgroup class="">
+       <h2 class=" "><div id="outline-container-orgca4d743" class="outline-3">
+<h3 id="orgca4d743">Pattern Matching</h3>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="" id="text-">
+<p>
+Elixir <b>tratará</b> de asignar valores a las variables para que la comparación sea verdadera.
+</p>
+
+<ul>
+<li>La <b>asignación de variables</b> es una <b>posible consecuencia</b> de pattern matching.</li>
+</ul>
+
+
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-"  >
+<hgroup class="">
+       <h2 class=" "><div id="outline-container-orgf861abf" class="outline-3">
+<h3 id="orgf861abf">Pattern Matching</h3>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="" id="text-">
+<div class="org-src-container">
+
+<pre class="prettyprint" data-lang="elixir">
+iex&gt; nombre = "Albert"
+"Albert"
+iex&gt; apodo = "amiguito"
+"amiguito"</pre>
+
+</div>
+
+
+</article>
+
+</slide>
+</slide>
+<slide id="sec-"  >
+<hgroup class="">
+       <h2 class=" "><div id="outline-container-orgba1558b" class="outline-3">
+<h3 id="orgba1558b">Pattern Matching</h3>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="" id="text-">
+<p>
+Las variables pueden reasignarse.
+</p>
+
+<p>
+Ejemplo:
+</p>
+<div class="org-src-container">
+
+<pre class="prettyprint" data-lang="elixir">
+iex&gt; nombre = "Albert"
+"Albert"
+iex&gt; nombre = "Amiguito"
+"Amiguito"</pre>
+
+</div>
+
+
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-"  >
+<hgroup class="">
+       <h2 class=" "><div id="outline-container-org574d646" class="outline-3">
+<h3 id="org574d646">Pattern Matching</h3>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="" id="text-">
+<p>
+Patrones complejos y multipartes puede ser usadas
+</p>
+
+<p>
+Ejemplo:
+</p>
+<div class="org-src-container">
+
+<pre class="prettyprint" data-lang="elixir">
+iex&gt; {nombre, apodo} = {"Albert", "amiguito"}
+{"Albert", "amiguito"}
+iex&gt; nombre
+"Albert"
+iex&gt; apodo
+"amiguito"</pre>
+
+</div>
+
+
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-"  >
+<hgroup class="">
+       <h2 class=" "><div id="outline-container-org8a87e8b" class="outline-3">
+<h3 id="org8a87e8b">Pattern Matching</h3>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="" id="text-">
+<p>
+Variables solo pueden enlazar una vez por match.
+</p>
+
+<p>
+Ejemplo:
+</p>
+<div class="org-src-container">
+
+<pre class="prettyprint" data-lang="elixir">
+#Contrajemplo
+iex&gt; {<b>edad</b>, <b>edad</b>} = {35, 15}
+(MatchError) no match of right hand side value: {35, 15}</pre>
+
+</div>
+
+
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-"  >
+<hgroup class="">
+       <h2 class=" "><div id="outline-container-orgb54f3c5" class="outline-3">
+<h3 id="orgb54f3c5">Pattern Matching</h3>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="" id="text-">
+<p>
+Usamos <code>_</code> para ignorar elementos en el patron.
+</p>
+
+<p>
+Ejemplo:
+</p>
+<div class="org-src-container">
+
+<pre class="prettyprint" data-lang="elixir">
+iex&gt; {nombre, <b>_</b>} = {"Albert", "Amiguito"}
+{"Albert", "Amiguito"}
+iex&gt; nombre
+"Albert"
+#Tambien puedo usar la siguiente forma solo por un tema de documentación
+iex&gt; {nombre, _apodo} = {"Albert", "Amiguito"}
+{"Albert", "Amiguito"}
+iex&gt; edad
+warning: ...........</pre>
+
+</div>
+
+
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-"  >
+<hgroup class="">
+       <h2 class=" "><div id="outline-container-org773000e" class="outline-3">
+<h3 id="org773000e">Pattern Matching</h3>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="" id="text-">
+<p>
+En el patron podemos incluir informacion.
+</p>
+
+<p>
+Ejemplo:
+</p>
+<div class="org-src-container">
+
+<pre class="prettyprint" data-lang="elixir">
+iex&gt; {<b>"Albert"</b>, apodo} = {<b>"Albert"</b>, "Amiguito"}
+{"Albert", "Amiguito"}
+iex&gt; apodo
+"Amiguito"
+
+iex&gt; {<b>"Amiguito"</b>, apodo} = {<b>"Albert"</b>, "Amiguito"}
+(MatchError) no match of right hand side value: </pre>
+
+</div>
+
+
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-"  >
+<hgroup class="">
+       <h2 class=" "><div id="outline-container-org62f9ae8" class="outline-3">
+<h3 id="org62f9ae8">Pattern Matching</h3>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="" id="text-">
+<p>
+Usamos <code>^</code> cuando queremos usar el valor de las variables pero en el lado del patron.
+</p>
+
+<p>
+Ejemplo:
+</p>
+<div class="org-src-container">
+
+<pre class="prettyprint" data-lang="elixir">
+iex&gt; <b>nombre</b> = "Albert"
+"Albert"
+iex&gt; {<b>^nombre</b>, ciudad} = {"Albert", "Huaraz"}
+{"Albert", "Huaraz"}
+iex&gt; ciudad
+"Huaraz"</pre>
+
+</div>
+
+
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-"  >
+<hgroup class="">
+       <h2 class=" "><div id="outline-container-org3d9b7e6" class="outline-3">
+<h3 id="org3d9b7e6">Pattern Matching</h3>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="" id="text-">
+<p>
+Todos los Tipos de datos en Elixir pueden ser matcheados.
+</p>
+
+<p>
+Ejemplo:
+</p>
+<div class="org-src-container">
+
+<pre class="prettyprint" data-lang="elixir">
+#Mapas
+iex&gt; %{nombre: nombre, ciudad: ciudad} = %{nombre: "Albert", ciudad: "Huaraz"}
+#Patron de solo lo que nos interesa
+iex&gt; %{nombre: nombre} = %{nombre: "Amiguito", ciudad: "Huaraz"}
+iex&gt; nombre
+"Amiguito"</pre>
+
+</div>
+
+
+</article>
+
+</slide>
+
+</slide>
+<slide id="sec-"  >
+<hgroup class="">
+       <h2 class=" "><div id="outline-container-org7b25410" class="outline-3">
+<h3 id="org7b25410">😲</h3>
+</div>
+</h2>
+       <h3></h3>
+       </hgroup>
+<article class="" id="text-">
+<div class="org-src-container">
+
+<pre class="prettyprint" data-lang="elixir">
+iex&gt; [<b>a</b>,_,_,_, %{value: <b>a</b>}] = [<b>1</b>, 2, 3, 4, %{value: <b>1</b>}]
+iex&gt; [<b>a</b>,_,_,_, %{value: <b>a</b>}] = [<b>1</b>, 2, 3, 4, %{value: <b>2</b>}]</pre>
+
+</div>
+
+
+</article>
+
+</slide>
+
+</slide>
+
+</slide>
+<slide id="sec-" class=" thank-you-slide segue nobackground" style="background-image: url(nil)">
 <aside class="gdbar right"><img src="images/na.png"></aside><article class="flexbox vleft auto-fadein" id="text-">
 <h2>
   <p>Gracias! ʕ•ᴥ•ʔ</p>

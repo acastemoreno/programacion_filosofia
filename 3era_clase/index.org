@@ -23,9 +23,209 @@
 #+LANGUAGE: es
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="theme/css/custom.css" />
 
+* 
+  :PROPERTIES:
+  :FILL:     images/pinocho.gif
+  :TITLE:    white
+  :SLIDE:    cover-image
+  :END:
+
+* 
+  :PROPERTIES:
+  :FILL:     images/lies.gif
+  :TITLE:    white
+  :SLIDE:    cover-image
+  :END:
+
+* 
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+#+BEGIN_QUOTE
+Asignacion de *variable* no es lo unico que hace el ===
+#+END_QUOTE
+
+* 
+  :PROPERTIES:
+  :FILL:     images/box.png
+  :TITLE:    white
+  :SLIDE:    contain-image
+  :END:
+
+* Redescubriendo el ===
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Pattern matching
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* 
+  :PROPERTIES:
+  :FILL:     images/flujo.png
+  :TITLE:    white
+  :SLIDE:    cover-image
+  :END:
+
+* 
+  :PROPERTIES:
+  :FILL:     images/babe_pattern.gif
+  :TITLE:    white
+  :SLIDE:    contain-image
+  :END:
+
+* 
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+#+BEGIN_QUOTE
+Busqueda de un *patron* en *informacion*
+#+END_QUOTE
+
+** Pattern Matching
+#+BEGIN_SRC elixir
+patron = data
+#+END_SRC
+
+2 partes:
+- *Data*: Expresion evaluada contra la cual se hara una comparación.
+- *Patron*: Forma de data.
+  - Contiene variables.
+
+
+#+ATTR_HTML: :class note
+#+BEGIN_QUOTE
+Nota[fn:1]
+Nota[fn:2]
+#+END_QUOTE
+
+** Pattern Matching
+Elixir *tratará* de asignar valores a las variables para que la comparación sea verdadera.
+
+- La *asignación de variables* es una *posible consecuencia* de pattern matching. 
+
+** Pattern Matching
+#+BEGIN_SRC elixir
+iex> nombre = "Albert"
+"Albert"
+iex> apodo = "amiguito"
+"amiguito"
+#+END_SRC
+** Pattern Matching
+Las variables pueden reasignarse.
+
+Ejemplo:
+#+BEGIN_SRC elixir
+iex> nombre = "Albert"
+"Albert"
+iex> nombre = "Amiguito"
+"Amiguito"
+#+END_SRC
+
+** Pattern Matching
+Patrones complejos y multipartes puede ser usadas
+
+Ejemplo:
+#+BEGIN_SRC elixir
+iex> {nombre, apodo} = {"Albert", "amiguito"}
+{"Albert", "amiguito"}
+iex> nombre
+"Albert"
+iex> apodo
+"amiguito"
+#+END_SRC
+
+** Pattern Matching
+Variables solo pueden enlazar una vez por match.
+
+Ejemplo:
+#+BEGIN_SRC elixir
+#Contrajemplo
+iex> {<b>edad</b>, <b>edad</b>} = {35, 15}
+(MatchError) no match of right hand side value: {35, 15}
+#+END_SRC
+
+** Pattern Matching
+Usamos =_= para ignorar elementos en el patron.
+
+Ejemplo:
+#+BEGIN_SRC elixir
+iex> {nombre, <b>_</b>} = {"Albert", "Amiguito"}
+{"Albert", "Amiguito"}
+iex> nombre
+"Albert"
+#Tambien puedo usar la siguiente forma solo por un tema de documentación
+iex> {nombre, _apodo} = {"Albert", "Amiguito"}
+{"Albert", "Amiguito"}
+iex> edad
+warning: ...........
+#+END_SRC
+
+** Pattern Matching
+En el patron podemos incluir informacion.
+
+Ejemplo:
+#+BEGIN_SRC elixir
+iex> {<b>"Albert"</b>, apodo} = {<b>"Albert"</b>, "Amiguito"}
+{"Albert", "Amiguito"}
+iex> apodo
+"Amiguito"
+
+iex> {<b>"Amiguito"</b>, apodo} = {<b>"Albert"</b>, "Amiguito"}
+(MatchError) no match of right hand side value: 
+#+END_SRC
+
+** Pattern Matching
+Usamos =^= cuando queremos usar el valor de las variables pero en el lado del patron.
+
+Ejemplo:
+#+BEGIN_SRC elixir
+iex> <b>nombre</b> = "Albert"
+"Albert"
+iex> {<b>^nombre</b>, ciudad} = {"Albert", "Huaraz"}
+{"Albert", "Huaraz"}
+iex> ciudad
+"Huaraz"
+#+END_SRC
+
+** Pattern Matching
+Todos los Tipos de datos en Elixir pueden ser matcheados.
+
+Ejemplo:
+#+BEGIN_SRC elixir
+#Mapas
+iex> %{nombre: nombre, ciudad: ciudad} = %{nombre: "Albert", ciudad: "Huaraz"}
+#Patron de solo lo que nos interesa
+iex> %{nombre: nombre} = %{nombre: "Amiguito", ciudad: "Huaraz"}
+iex> nombre
+"Amiguito"
+#+END_SRC
+
+** 😲
+#+BEGIN_SRC elixir
+iex> [<b>a</b>,_,_,_, %{value: <b>a</b>}] = [<b>1</b>, 2, 3, 4, %{value: <b>1</b>}]
+iex> [<b>a</b>,_,_,_, %{value: <b>a</b>}] = [<b>1</b>, 2, 3, 4, %{value: <b>2</b>}]
+#+END_SRC
+
 * Gracias! ʕ•ᴥ•ʔ
 :PROPERTIES:
 :SLIDE: thank-you-slide segue
 :ASIDE: right
 :ARTICLE: flexbox vleft auto-fadein
 :END:
+
+* Footnotes
+[fn:1] [[https://www.poeticoding.com/the-beauty-of-pattern-matching-in-elixir/][The beauty of Pattern Matching in elixir]]
+[fn:2] [[https://blog.carbonfive.com/2017/10/19/pattern-matching-in-elixir-five-things-to-remember/][Pattern Matching in Elixir: Five Things To Remember]]
