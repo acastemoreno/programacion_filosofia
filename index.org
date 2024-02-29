@@ -44,6 +44,13 @@
   :ARTICLE:  flexbox vleft auto-fadein
   :END:
 
+* [[./3era_clase/index.html][3era clase]]
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
 * Gracias! ʕ•ᴥ•ʔ
 :PROPERTIES:
 :SLIDE: thank-you-slide segue
