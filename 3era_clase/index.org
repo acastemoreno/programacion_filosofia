@@ -23,6 +23,13 @@
 #+LANGUAGE: es
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="theme/css/custom.css" />
 
+* Lugar donde practicar
+[[https://acastemoreno-programacion-filosofia.hf.space/apps][Livebook]]
+
+Luego click en dashboard en la esquina superior derecha
+
+Contraseña: =programacion_filosofia=
+
 * 
   :PROPERTIES:
   :FILL:     images/pinocho.gif
