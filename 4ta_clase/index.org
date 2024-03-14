@@ -30,6 +30,33 @@ Luego click en dashboard en la esquina superior derecha
 
 Contraseña: =programacion_filosofia=
 
+* Para evitar lentitud: Wifi
+
+Nombre: na_programacion_filosofia
+
+Contraseña: amiguito
+
+* Livebook dentro de nuestra red
+
+[[http://192.168.50.65:8080/][Livebook en nuestra propia red]]
+
+Contraseña: =programacion_filosofia=
+
+
+* Primer ejercicio
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Segundo ejercicio
+  :PROPERTIES:
+  :SLIDE:    segue celeste quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
 * Gracias! ʕ•ᴥ•ʔ
 :PROPERTIES:
 :SLIDE: thank-you-slide segue
