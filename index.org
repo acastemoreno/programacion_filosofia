@@ -51,6 +51,13 @@
   :ARTICLE:  flexbox vleft auto-fadein
   :END:
 
+* [[./4ta_clase/index.html][4ta clase]]
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
 * Gracias! ʕ•ᴥ•ʔ
 :PROPERTIES:
 :SLIDE: thank-you-slide segue
