@@ -50,12 +50,28 @@ Contraseña: =programacion_filosofia=
   :ARTICLE:  flexbox vleft auto-fadein
   :END:
 
+* Ayuda
+[[https://hexdocs.pm/elixir/File.html#read/1][Leer archivo en base a un nombre de archivo]]
+
+[[https://hexdocs.pm/elixir/case-cond-and-if.html#case][Pattern matching sin usar funciones]]
+
+
 * Segundo ejercicio
   :PROPERTIES:
   :SLIDE:    segue celeste quote
   :ASIDE:    right bottom
   :ARTICLE:  flexbox vleft auto-fadein
   :END:
+
+
+* Ayuda
+[[https://hexdocs.pm/elixir/Enum.html#min/3][Minimo de una lista]]
+
+[[https://hexdocs.pm/elixir/Enum.html#max/3][Maximo de una lista]]
+
+[[https://hexdocs.pm/elixir/Enum.html#all?/2][¿Todos los elementos cumplen una condicion?]]
+
+[[https://hexdocs.pm/elixir/Enum.html#any?/2][¿Alguno de los elemento cumple una condicion?]]
 
 * Gracias! ʕ•ᴥ•ʔ
 :PROPERTIES:
